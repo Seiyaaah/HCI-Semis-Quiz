@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>VoiLearn - Interactive Learning App</title>
+
+    <meta name="description" content="VoiLearn - Offline Interactive Learning Application">
+    <meta name="theme-color" content="#4f46e5">
+
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- PWA -->
+    <link rel="manifest" href="./manifest.json">
+
+    <!-- Icons -->
+    <link rel="icon" type="image/png" href="./icons/icon-192.png">
+    <link rel="apple-touch-icon" href="./icons/icon-192.png">
+</head>
+
+<body>
+
+    <header class="navbar">
+        <div class="logo">🧠 VoiLearn</div>
+
+        <nav>
+            <a href="#home" class="nav-link">Home</a>
+            <a href="#notes" class="nav-link">Notes</a>
+            <a href="#progress" class="nav-link">Progress</a>
+
+            <button id="themeToggleBtn" class="theme-toggle">
+                🌙 Dark
+            </button>
+        </nav>
+    </header>
+
+    <main id="app-container" class="container">
+        <section class="loading-view">
+            Loading learning modules...
+        </section>
+    </main>
+
+    <footer class="footer">
+        <p>&copy; 2026 VoiLearn. Works offline.</p>
+    </footer>
+
+    <script type="module" src="js/app.js"></script>
+
+</body>
+
+</html>
